@@ -8,7 +8,7 @@
 
 
 ## Introduction
-This is the code for the paper "Modeling Voting for System Combination in Machine Translation" (IJCAI 2020).  The implementation is on top of the open-source NMT toolkit [THUMT](https://github.com/thumt/THUMT). You might need to glance over the user manual of THUMT for knowing the basic usage of THUMT.
+This is the code for the paper "[Modeling Voting for System Combination in Machine Translation](https://www.ijcai.org/Proceedings/2020/511)" (IJCAI 2020).  The implementation is on top of the open-source NMT toolkit [THUMT](https://github.com/thumt/THUMT). You might need to glance over the user manual of THUMT for knowing the basic usage of THUMT.
 
 ## Prerequisites
 * Python 2.7
@@ -44,17 +44,18 @@ python ${path_to_Voting4SC}/thumt/bin/translator.py \
 ## Citation
 If you use our codes, please cite our paper:
 ```
-@inproceedings{huang-etal-2020-modeling,
-    title = "Modeling Voting for System Combination in Machine Translation",
-    author = "Huang, Xuancheng and
-      Zhang, Jiacheng and
-      Tan, Zhixing and
-      Wong, Derek F and
-      Luan, Huan bo and
-      Xu, Jingfang and
-      Sun, Maosong and 
-      Liu, Yang",
-    booktitle = "Proceedings of the 29th International Joint Conference on Artificial Intelligence and the 17th Pacific Rim International Conference on Artificial Intelligence (IJCAI-PRICAI)",
-    year = "2020"
+@inproceedings{ijcai2020-511,
+  title     = {Modeling Voting for System Combination in Machine Translation},
+  author    = {Huang, Xuancheng and Zhang, Jiacheng and Tan, Zhixing and Wong, Derek F. and Luan, Huanbo and Xu, Jingfang and Sun, Maosong and Liu, Yang},
+  booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on
+               Artificial Intelligence, {IJCAI-20}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},             
+  editor    = {Christian Bessiere}
+  pages     = {3694--3701},
+  year      = {2020},
+  month     = {7},
+  note      = {Main track}
+  doi       = {10.24963/ijcai.2020/511},
+  url       = {https://doi.org/10.24963/ijcai.2020/511},
 }
 ```
